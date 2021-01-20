@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nanum Myeongjo', serif!important;
+}
+
+html{
+	scroll-behavior:smooth;
+}
+/* my global CSS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     color: rgb(37 57 118)!important;
+    font-size: 32px!important;
+    font-weight: 900!important;
+
+}
+section{
+padding-top: 71px!important;}
+
+.color_white,.bg_blue>p{
+	color:white!important;
+}
+a:hover {
+   
+    text-decoration: none!important;
+}
+
+a {
+    font-size: 17px!important;
+    font-weight: 900!important;
+	
+}
+
+.pad-10,
+.my_logo,
+.my_widgets,
+nav,p,
+.navigation,.my_banner,section,
+.my_secrvice,
+.services_images_01,
+.services_images_02,
+.services_images_03,
+.services_images_04,
+.content,.my_block,.my_avenue_design,footer{
+    padding: 10px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(0 0 0);
+}
+
+.my_btn {
+    padding: 18px;
+    background: rgb(255 255 255);
+    color: rgb(15 23 50);
+    border-radius: 21px;
+    box-shadow: 0 11px 13px 2px rgba(202, 202, 202, 0.3);
+    font-size: 21px!important;
+}
+.my_btn_blue{
+    padding: 18px;
+    background: rgb(25 49 187);
+    color: rgb(255 255 255);
+    border-radius: 21px;
+	box-shadow: 0 11px 13px 2px rgba(202, 202, 202, 0.3);
+}
+
+.my_widgets>ul>li>a,.my_block>ul>li>a{
+	color:black!important;
+}
+/* --------------- */
+
+.my_logo>span>img {
+    width: 58px;
+}
+
+.logo_name {
+    font-size: 26px;
+    padding: 10px;
+    position: relative;
+    top: 7px;
+}
+
+
+/* ----header_css */
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+    background: rgb(221 226 238);
+
+}
+
+.cmpny_name {
+    font-size: 44px!important;
+   
+}
+.color_blue{
+	color:rgb(25 49 187);
+}
+
+.avenue_company_content {
+    padding: 10px;
+    position: relative;
+}
+
+
+/* ----------------- */
+
+
+/* --Navigation Css */
+
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+   
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+    background: rgb(25 49 187);
+	
+}
+.my_menu{
+	display:none!important;
+}
+.navigation>ul>li>a{
+	color:white!important;
+}
+
+/* -------------- */
+
+.avenue_company_content>img{
+	border-radius: 40px;
+}
+/* Section Css */
+
+.avenue_company_content {
+    padding: 48px 0px;
+    position: relative;
+
+}
+
+
+.content>p,.avenue_company_content>p{
+	    color: rgb(255 255 255);
+		font-weight:900;
+}
+/*----------*/
+
+.my_banner {
+    background: url(..//images/avenue_design_website_app_development_company_in_bilaspur.png);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+} 
+
+
+/* ----service_images */
+
+.my_secrvice {
+    box-shadow: 0 11px 13px 2px rgba(202, 202, 202, 0.3);
+    
+    background-color: rgb(255 255 255);
+    border-radius: 20px;
+}
+
+.my_secrvice>a>img {
+    width: 100%;
+    padding: 10px;
+    height: 133px;
+}
+
+
+/* -------------- */
+
+
+/* ..services_css */
+
+.srv>img {
+    width: 100%;
+    margin: 0 auto;
+    height: 157px;
+}
+
+.services_images_01,
+.services_images_02,
+.services_images_03,
+.services_images_04 {
+    height: 274px;
+    box-shadow: 0 11px 13px 2px rgba(202, 202, 202, 0.3);
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+
+.services_images_01 {
+    background: linear-gradient(to bottom, rgb(255 209 105) 0%, rgb(255 164 85) 100%, rgb(255 164 85) 100%);
+}
+
+.services_images_02 {
+    background: linear-gradient(to bottom, rgb(113 115 252) 0%, rgb(96 250 232) 100%);
+}
+
+.services_images_03 {
+    background: linear-gradient(to bottom, rgb(74 255 226) 0%, rgb(25 119 213) 100%);
+}
+
+.services_images_04 {
+    background: linear-gradient(to bottom, rgb(169 134 255) 0%, rgb(249 129 255) 100%);
+}
+
+.leyer{
+	background: rgb(15 23 50 / 42%);
+}
+/* ---------------- */
+.bg_blue{
+	 background: rgb(25 49 187);
+	  box-shadow: 0 11px 13px 2px rgba(202, 202, 202, 0.3);
+}
+
+
+
+/*-----Footer----*/
+footer{
+	background: rgb(25 49 187);
+}
+.my_footer_widget>ul{
+	list-style-type:none!important;
+}
+.my_footer_widget>ul>li>a{
+	color:white!important;
+}
+
+
+
+
